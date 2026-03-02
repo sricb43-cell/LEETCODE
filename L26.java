@@ -9,7 +9,7 @@ public class L26 {
         while (j<n)
         {
             if (a[i]==a[j])j++;
-            if (a[i]!=a[j])
+           else if (a[i]!=a[j])
             {
                 a[i+1] =a[j];
                 no++;
@@ -24,3 +24,4 @@ public class L26 {
     }
 
 }
+
